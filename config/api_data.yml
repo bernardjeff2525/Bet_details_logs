@@ -1,0 +1,8 @@
+development:
+  saba:
+    url: 'http://api.a0228.gamehby.com'
+    vendor_id: 'clxvy4lfsl'
+test:
+  saba:
+    url: 'http://api.a0228.gamehby.com'
+    vendor_id: 'clxvy4lfsl'
