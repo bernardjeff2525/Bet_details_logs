@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_11_063547) do
+ActiveRecord::Schema.define(version: 2020_01_14_081315) do
+
+  create_table "balance_history_records", force: :cascade do |t|
+    t.string "vendor_member_id"
+    t.string "type"
+    t.decimal "balance"
+    t.integer "currency_id"
+    t.decimal "amount"
+    t.string "vendor_trans_id"
+  end
 
   create_table "bet_details", force: :cascade do |t|
     t.integer "transaction_id", limit: 8

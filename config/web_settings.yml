@@ -1,0 +1,13 @@
+development:
+  im_esport:
+    saba_server:
+      url: 'xxxxxxxx'
+      vendor_id: 'xxxxxxxx'
+      operator_id: 'xxxxxx'
+
+test:
+  im_esport:
+    saba_server:
+      url: 'xxxxxxxx'
+      vendor_id: 'xxxxxxxx'
+      operator_id: 'xxxxxx'

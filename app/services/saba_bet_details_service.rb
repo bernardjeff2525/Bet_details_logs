@@ -9,7 +9,7 @@ class SabaBetDetailsService
 
   def initialize(version_key)
     @vendor_id = Rails.application.config_for(:api_data)['saba']['vendor_id']
-    @wallet_id = 1
+    @wallet_id = Rails.application.config_for(:api_data)['saba']['wallet_id']
     @version_key = version_key
     request_bet_details
     remove_exists_transaction_id
@@ -18,7 +18,7 @@ class SabaBetDetailsService
   end
 
   def save_bet_details
-    return if bet_details.size == 0
+    return if bet_details.size == 0 || errors.any?
     bet_details.each do |bet_detail|
       bet_record = BetDetail.new(transaction_id: bet_detail['trans_id'],
                                  vendor_member_id: bet_detail['vendor_member_id'],

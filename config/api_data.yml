@@ -2,7 +2,9 @@ development:
   saba:
     url: 'http://api.a0228.gamehby.com'
     vendor_id: 'clxvy4lfsl'
+    wallet_id: 1
 test:
   saba:
     url: 'http://api.a0228.gamehby.com'
     vendor_id: 'clxvy4lfsl'
+    wallet_id: 1
