@@ -3,7 +3,7 @@ development:
     saba_server:
       url: 'xxxxxxxx'
       vendor_id: 'xxxxxxxx'
-      operator_id: 'xxxxxx'
+      operator_id: 'xsdfsdfsdfsxxxxx'
 
 test:
   im_esport:
